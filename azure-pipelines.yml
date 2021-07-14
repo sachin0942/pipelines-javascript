@@ -2,6 +2,10 @@
 # https://docs.microsoft.com/azure/devops/pipelines/ecosystems/javascript?view=azure-devops
 strategy:
   matrix:
+    #selfhosted:
+      #poolName: Default
+      #vmImage:
+      
     linux:
       imageName: 'Az-Pipelines-2.186.1'
     mac:
