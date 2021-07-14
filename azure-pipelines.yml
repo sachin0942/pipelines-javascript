@@ -1,13 +1,13 @@
 # Build NodeJS Express app using Azure Pipelines
 # https://docs.microsoft.com/azure/devops/pipelines/ecosystems/javascript?view=azure-devops
-#strategy:
-  #matrix:
-    #linux:
-      #imageName: 'Az-Pipelines-2.186.1'
-    #mac:
-      #imageName: 'Az-Pipelines-2.186.1'
-    #windows:
-      #imageName: 'Az-Pipelines-2.186.1'
+strategy:
+  matrix:
+    linux:
+      imageName: 'Az-Pipelines-2.186.1'
+    mac:
+      imageName: 'Az-Pipelines-2.186.1'
+    windows:
+      imageName: 'Az-Pipelines-2.186.1'
 pool:
     vmImage: Az-Pipelines-2.186.1
 steps:
