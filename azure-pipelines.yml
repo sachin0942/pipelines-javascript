@@ -8,7 +8,7 @@ strategy:
       imageName: 'Az-Pipelines-2.186.1'
     windows:
       imageName: 'Az-Pipelines-2.186.1'
- pool:
+pool:
     vmImage: $(imageName)
 steps:
   - task: NodeTool@0
